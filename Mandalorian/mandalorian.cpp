@@ -15,21 +15,22 @@ using namespace std;
 
 
 
-Mandalorian::Mandalorian(string episodeName, int episodeNr, time_t date): episodeName(episodeName),episodeNr(episodeNr), date(date)
+Mandalorian::Mandalorian(string name, int nr, long date): name(name),nr(nr), date(date)
 {
     //ascoolarobban & älpan
 }
-string Mandalorian::getName()
+string Mandalorian::getName() const
 {
-    return episodeName;
+    return name;
 }
 
-int Mandalorian::getNr()
+int Mandalorian::getNr() const
 {
-    return episodeNr;
+    return nr;
 }
 
-time_t Mandalorian::getDate()
+long Mandalorian::getDate() const
 {
     return date;
 }
+

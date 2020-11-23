@@ -18,17 +18,16 @@ using namespace std;
 class Mandalorian
 {
 private:
-    string episodeName;
-    int episodeNr;
-    time_t date;
-    
-    
+    string name;
+    int nr;
+    long date;
+
 public:
-    Mandalorian(string episodeName, int episodeNr, time_t date);
+    Mandalorian(string name, int nr, long date);
     Mandalorian();
-    string getName();
-    int getNr();
-    time_t getDate();
+    string getName() const;
+    int getNr() const;
+    long getDate() const;
 };
 
 

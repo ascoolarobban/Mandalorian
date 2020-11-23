@@ -10,7 +10,6 @@
 #include "mandalorian.h"
 using namespace std;
 
-
 time_t DateToTime(int day, int month, int year)
 {
     tm temp = tm();
