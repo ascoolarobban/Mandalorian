@@ -64,10 +64,10 @@
 		0031FE1E256BE7CD00738693 /* Mandalorian */ = {
 			isa = PBXGroup;
 			children = (
-				0031FE27256C003500738693 /* mandalorian.cpp */,
 				0031FE2C256C06E700738693 /* episodes.cpp */,
 				0031FE38256C0AD800738693 /* dateToTime.cpp */,
 				0031FE28256C003500738693 /* mandalorian.h */,
+				0031FE27256C003500738693 /* mandalorian.cpp */,
 				0031FE1F256BE7CD00738693 /* main.cpp */,
 			);
 			path = Mandalorian;
